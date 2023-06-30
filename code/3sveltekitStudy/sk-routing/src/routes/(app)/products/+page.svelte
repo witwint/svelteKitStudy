@@ -10,5 +10,4 @@
   <a href="/products/1"><li>제품1</li></a>
   <a href="/products/2"><li>제품2</li></a>
   <a href={`/products/${productId}`}><li>제품{productId}</li></a>
-  
 </ul>

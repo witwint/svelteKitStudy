@@ -14,3 +14,16 @@ export function GET() {
 //     }
 //   })
 // }
+
+export async function POST(requestEvent) {
+  const {request} = requestEvent;
+  const { text } = await request.json();
+  const newCommnet = {
+    id: comments.length +1,
+    text 
+  };
+  comments.push(newCommnet);
+
+  //return new Response(JSON.stringify(newCommnet),{ status: 201});
+  return json(newCommnet, {status: 201});
+}
