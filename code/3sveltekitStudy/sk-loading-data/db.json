@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "나이키 양말",
+      "price": 8000,
+      "description": "이 양말은 어쩌구저쩌구"
+    },
+    {
+      "id": 2,
+      "title": "뉴발 양말",
+      "price": 80000,
+      "description": "이 양말은 어쩌구저쩌구"
+    },
+    {
+      "id": 1,
+      "title": "키보드",
+      "price": 60000,
+      "description": "이 키보드는 어쩌구저쩌구"
+    }
+  ]
+}
