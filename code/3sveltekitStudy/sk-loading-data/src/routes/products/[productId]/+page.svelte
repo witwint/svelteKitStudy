@@ -3,6 +3,7 @@
   const { product } = data;
 </script>
 
+
 <h1>제품 상세페이지</h1>
 <div>
   <h2>{product.title}</h2>
